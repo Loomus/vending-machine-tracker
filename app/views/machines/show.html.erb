@@ -1,1 +1,7 @@
 <h1><%= @machine.location %> Vending Machine</h1>
+<h2>Snack List</h2>
+<ul>
+  <li><%= @snack_1.name %>: <%= @snack_1.price.round(2) %></li>
+  <li><%= @snack_2.name %>: <%= @snack_2.price.round(2) %></li>
+  <li><%= @snack_3.name %>: <%= @snack_3.price.round(2) %></li>
+</ul>
